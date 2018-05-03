@@ -1,0 +1,22 @@
+.anketa-wrapper {
+    width: 255px;
+    height: 500px;
+    background: linear-gradient(#1BA260, #C5E6CB);
+    padding: 10px 30px;
+    margin: auto;
+    border-radius: 4px;
+}
+.anketa__input {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin-top: 20px;
+}
+.anketa__button {
+    margin-top: 10px;
+    background: #FFF663;
+    height: 25px;
+}
+.anketa__output{
+    margin-top: 30px;
+}

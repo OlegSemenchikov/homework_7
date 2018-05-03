@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anketa_oper</title>
+    <link rel="stylesheet" href="css/anketa.css">
+</head>
+<body>
+    <div class="anketa-wrapper">
+        <H3>Заполните анкету:</H3>
+        <input type="text" id="anketa__userSurname" class="anketa__input" placeholder=" Введите ваше фамилию..." autofocus>
+        <input type="text" id="anketa__userName" class="anketa__input" placeholder=" Введите ваше имя...">
+        <input type="text" id="anketa__userPatronymic" class="anketa__input" placeholder=" Введите ваше отчество">
+        <input type="text" id="anketa__userAge" class="anketa__input" placeholder=" Введите ваш возраст">
+        <H3>Укажите Ваш пол:</H3>
+        <input type="radio" id="anketa__genderMan" name="gender" value="Мужчина" checked>Мужской
+        <input type="radio" id="anketa__genderWoman" name="gender" value="Женщина">Женский
+        <button id="anketa__button" class="anketa__button">
+            Отправить
+        </button>
+        <div class="anketa__output">
+            <div>ФИО:
+                <span id="anketa__addName"></span>
+            </div>
+            <div>возраст, лет:
+                <span id="anketa__addAge"></span>
+            </div>
+            <div>возраст, дней:
+                <span id="anketa__addAgeDays"></span>
+            </div>
+            <div>пол:
+                <span id="anketa__addGender"></span>
+            </div>
+            <div>пенсионный возраст:
+                <span id="anketa__addRetirementAge"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/anketa_oper.js"></script>
+</body>
+</html>
